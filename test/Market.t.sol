@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import {Test, console} from "forge-std/Test.sol";
-import {Market} from "../src/Market.sol";
+import {Market} from "contracts/Market.sol";
 import {OlympixUnitTest} from "./OlympixUnitTest.sol";
 
 contract MarketTest is OlympixUnitTest("Market") {
